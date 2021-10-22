@@ -267,7 +267,6 @@ class BlockDeviceWrapper(update_coordinator.DataUpdateCoordinator):
         self._mc_click_count: dict = {}
         self._mc_click_timer: dict = {}
 
-        hass.bus.async_listen_once(EVENT_HOMEASSISTANT_STOP, self._handle_ha_stop)
         entry.async_on_unload(
             hass.bus.async_listen_once(EVENT_HOMEASSISTANT_STOP, self._handle_ha_stop)
         )

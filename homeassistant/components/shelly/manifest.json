@@ -1,4 +1,5 @@
 {
+  "version": "2022.02",
   "domain": "shelly",
   "name": "Shelly",
   "config_flow": true,

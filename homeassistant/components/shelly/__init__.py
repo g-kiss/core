@@ -96,7 +96,7 @@ RPC_PLATFORMS: Final = [
 
 
 # Multiclick delay between clicks in seconds
-MC_MULTICLICK_DELAY = 0.7
+MC_MULTICLICK_DELAY = 0.5
 
 COAP_SCHEMA: Final = vol.Schema(
     {
